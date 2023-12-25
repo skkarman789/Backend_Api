@@ -1,5 +1,9 @@
+## :star2: About the Project
+ ```This Django project serves as a rule engine for monitoring and generating alerts based on vehicle data. It includes scheduled jobs for periodic data updates and alert generation. The project uses Django REST Framework for API endpoints and interacts with a SQLite3 database.```
+
 ## :toolbox: Getting Started
-### :gear: Installation
+
+
 
 Clone the project
 
@@ -11,31 +15,34 @@ Navigate to the project directory:
 ```bash
 cd enview
 ```
-Create a virtual environment:
+Create a virtual environment
 ```bash
-pip install venv python -m venv venv venv/Scripts/Activate
+pip install venv 
+python -m venv venv 
+venv/Scripts/Activate
 ```
-Install project dependencies:
+Install project dependencies
 ```bash
 pip install -r requirements.txt
 ```
-Run migrations to set up the database:
+Run migrations to set up the database
 ```bash
-python manage.py makemigrations python manage.py migrate
+python manage.py makemigrations 
+python manage.py migrate
 ```
-Create a superuser for administrative tasks:
+Create a superuser for administrative tasks
 ```bash
 python manage.py createsuperuser
 ```
 
 
 ### :running: Run Locally
-Start the development server:
+Start the development server
 ```bash
 python manage.py runserver
 ```
 
-🚀 API Endpoints:
+🚀 API Endpoints
 ``````bash
 • GET /alerts/{alert_id}
 ➡️ Retrieve a single alert by ID.
