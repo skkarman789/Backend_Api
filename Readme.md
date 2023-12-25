@@ -11,7 +11,7 @@
 git clone https://github.com/skkarman789/Backend_Api.git
 ```
 
-2. Navigate to the project directory:
+2. Navigate to the project directory
 ```bash
 cd enview
 ```
