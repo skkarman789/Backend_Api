@@ -5,7 +5,7 @@
 Clone the project
 
 ```bash
-https://github.com/skkarman789/Backend_Api.git
+git clone https://github.com/skkarman789/Backend_Api.git
 ```
 
 Navigate to the project directory:
