@@ -1,5 +1,4 @@
 ## :toolbox: Getting Started
-
 ### :gear: Installation
 
 Clone the project
@@ -35,3 +34,19 @@ Start the development server:
 ```bash
 python manage.py runserver
 ```
+
+🚀 API Endpoints:
+``````bash
+• GET /alerts/{alert_id}
+➡️ Retrieve a single alert by ID.
+    
+• GET /alerts/
+➡️Retrieve all alerts.
+
+• POST /events/
+➡️Receive driving events from the IoT device.
+
+• GET /getevent/
+➡️Retrieve all alerts.
+```````
+Happy Coding! 🚀
