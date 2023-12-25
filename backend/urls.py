@@ -20,8 +20,8 @@ from . import views
 from . import the_rule_engine
 
 urlpatterns = [
-    path('POST/',views.addItem),
-    path('GET/',views.getData),
+    path('event/',views.addItem),
+    path('getevent/',views.getData),
     path('alert/<str:alert_id>/', the_rule_engine.get_alert, name='get_all_alerts'),
     path('alerts/', the_rule_engine.get_all_alerts, name='get_all_alerts'),
 ]
